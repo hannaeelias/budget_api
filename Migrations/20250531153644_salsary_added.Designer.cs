@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using budget_api.Data;
 
@@ -10,9 +11,11 @@ using budget_api.Data;
 namespace budget_api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250531153644_salsary_added")]
+    partial class salsary_added
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.3");
@@ -153,7 +156,7 @@ namespace budget_api.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("INTEGER");
 
-                    b.Property<double>("Balance")
+                    b.Property<double?>("Balance")
                         .HasColumnType("REAL");
 
                     b.Property<DateTime?>("BirthDate")
@@ -203,7 +206,7 @@ namespace budget_api.Migrations
                     b.Property<string>("Role")
                         .HasColumnType("TEXT");
 
-                    b.Property<double>("Salary")
+                    b.Property<double?>("Salary")
                         .HasColumnType("REAL");
 
                     b.Property<double?>("SavingsBalance")

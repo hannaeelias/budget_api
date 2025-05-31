@@ -7,6 +7,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace budget_api.Controllers
 {
@@ -17,6 +18,7 @@ namespace budget_api.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly IConfiguration _configuration;
+        private readonly ILogger<UsersController> _logger;
 
         public UsersController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IConfiguration configuration)
         {
@@ -43,41 +45,67 @@ namespace budget_api.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel model)
         {
-            if (await _userManager.FindByNameAsync(model.Email) != null)
-                return BadRequest("Username already exists.");
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            Console.WriteLine($"UserName: {model.UserName}");
 
             var user = new AppUser
             {
-                UserName = model.Email,
+                UserName = model.UserName,
                 Email = model.Email,
                 FirstName = model.FirstName,
                 BirthDate = model.BirthDate,
-                Salary = model.Salary,
-                Balance = model.Balance,
-                SavingsBalance = model.SavingsBalance,
+                Salary = model.Salary ?? 1000,
+                Balance = model.Balance ?? 0,
+                SavingsBalance = model.SavingsBalance ?? 0
             };
-                
-            var result = await _userManager.CreateAsync(user, model.Password);
-            if (!result.Succeeded)
-                return BadRequest(result.Errors);
 
-            return Ok(new { Message = "User registered successfully." });
+
+            try
+            {
+                var result = await _userManager.CreateAsync(user, model.Password);
+
+                if (!result.Succeeded)
+                    return BadRequest(result.Errors);
+
+                return Ok("User registered successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("EXCEPTION DURING REGISTRATION: " + ex.Message);
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
         }
+
+
+
 
         // Login (Authentication)
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] RegisterModel model)
+        public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
-            var foundUser = await _userManager.FindByNameAsync(model.Email);
-            if (foundUser == null)
-                return Unauthorized("Invalid username or password.");
+            try
+            {
+                if (model == null || string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password))
+                    return BadRequest("Invalid login request.");
 
-            var result = await _signInManager.CheckPasswordSignInAsync(foundUser, model.Password, false);
-            if (!result.Succeeded)
-                return Unauthorized("Invalid username or password.");
+                var foundUser = await _userManager.FindByEmailAsync(model.Email);
+                if (foundUser == null)
+                    return Unauthorized("Invalid username or password.");
 
-            var token = GenerateJwtToken(foundUser);
-            return Ok(new { Token = token });
+                var result = await _signInManager.CheckPasswordSignInAsync(foundUser, model.Password, false);
+                if (!result.Succeeded)
+                    return Unauthorized("Invalid username or password.");
+
+                var token = GenerateJwtToken(foundUser);
+                return Ok(new { Token = token });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error in Login");
+                return StatusCode(500, "Internal server error");
+            }
         }
 
 

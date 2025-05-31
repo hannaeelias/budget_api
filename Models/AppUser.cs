@@ -8,13 +8,12 @@ namespace budget_api.Models
     {
         public string FirstName { get; set; } = string.Empty;
         public DateTime? BirthDate { get; set; }
-        public double? Salary { get; set; }
-        public double? Balance { get; set; }
+        public double Salary { get; set; } = 0;
+        public double Balance { get; set; } = 0;
         public double? SavingsBalance { get; set; }
         public DateTime? LastUpdated { get; set; }
         public string? Role { get; set; }
 
 
-        public new string? UserName { get; set; } 
     }
 }

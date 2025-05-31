@@ -1,10 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace budget_api.Models
 {
     public class LoginModel
     {
-        public string UserName { get; set; }
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
+        [Required]
         public string Password { get; set; }
     }
 }

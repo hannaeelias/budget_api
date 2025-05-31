@@ -10,6 +10,7 @@
         public double? Salary { get; set; }
         public double? Balance { get; set; }
         public double? SavingsBalance { get; set; }
+        public string UserName { get; set; }
     }
 
 }

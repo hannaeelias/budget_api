@@ -1,0 +1,409 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hannae\\source\\repos\\budget_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\controllers\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:controllers\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\migrations\\20250327162329_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:migrations\\20250327162329_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\controllers\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:controllers\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\controllers\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:controllers\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\migrations\\20250327163639_updateappuserschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:migrations\\20250327163639_updateappuserschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|c:\\users\\hannae\\source\\repos\\budget_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B94AF903-36C9-4A57-BA7B-606F3DA14FC5}|budget_api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1342479863:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:378062869:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Controllers\\Transaction.cs",
+              "RelativeDocumentMoniker": "Controllers\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Controllers\\Transaction.cs",
+              "RelativeToolTip": "Controllers\\Transaction.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T09:34:07.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:15:24.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:24:21.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:46:03.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Controllers\\AppUser.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Controllers\\AppUser.cs",
+              "RelativeToolTip": "Controllers\\AppUser.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T09:33:30.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:17:43.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwEoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:12:00.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250327162329_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Migrations\\20250327162329_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250327162329_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Migrations\\20250327162329_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250327162329_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:23:41.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Controllers\\Item.cs",
+              "RelativeDocumentMoniker": "Controllers\\Item.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Controllers\\Item.cs",
+              "RelativeToolTip": "Controllers\\Item.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T09:33:49.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T08:16:01.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:45:39.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\AppDbContext.cs",
+              "RelativeToolTip": "AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:17:43.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAjwL0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:23:43.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250327163639_UpdateAppUserSchema.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Migrations\\20250327163639_UpdateAppUserSchema.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250327163639_UpdateAppUserSchema.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Migrations\\20250327163639_UpdateAppUserSchema.cs",
+              "RelativeToolTip": "Migrations\\20250327163639_UpdateAppUserSchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:36:52.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AgIAACUWAAAAAAAAAAAiwDgWAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-31T12:20:11.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "bootstrap.bundle.js.map",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABGkAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-31T12:20:14.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "bootstrap.bundle.min.js.map",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABGkAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-31T12:20:16.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "bootstrap.esm.js",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "ViewState": "AgIAAPUOAAAAAAAAAAAiwAgPAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-31T12:20:18.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bootstrap.esm.js.map",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-31T12:20:19.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Item.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\Item.cs",
+              "RelativeToolTip": "Models\\Item.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:16:13.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:34:21.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:16:36.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Hannae\\source\\repos\\budget_api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T12:56:52.315Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

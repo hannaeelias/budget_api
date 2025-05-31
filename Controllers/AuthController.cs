@@ -24,7 +24,7 @@ namespace budget_api.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
-            var user = await _userManager.FindByNameAsync(model.UserName);
+            var user = await _userManager.FindByEmailAsync(model.Email);
             if (user == null)
             {
                 return Unauthorized("Invalid login attempt.");
